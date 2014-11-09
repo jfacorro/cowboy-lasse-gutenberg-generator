@@ -12,7 +12,7 @@
 init(_InitArgs, _LastEventId, Req) ->
     {ok, Req, {}}.
 
-handle_notify(Event, State) ->
+handle_notify(_Event, State) ->
     {send, [{data, <<"some data">>}], State}.
 
 handle_info(_Msg, State) ->
