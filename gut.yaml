@@ -1,0 +1,4 @@
+postinstall:
+  message:
+    lasse cowboy handler generated
+cwd: true
